@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>百度一下，我就不知道</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+    }
+
+    .flex {
+      display: flex;
+    }
+    .baise {
+      background-color: white;
+    }
+    .flex1 {
+      flex: 1;
+    }
+    .column {
+      flex-direction: column;
+    }
+    .mg8 {
+      margin: 8px;
+    }
+    .mgr8 {
+      margin-right: 8px;
+    }
+    .mgt8 {
+      margin-top: 8px;
+    }
+    .juzhong {
+      display: flex;
+      justify-content: center;
+    }
+    .shangxiajuzhong {
+      display: flex;
+      align-items: center;
+    }
+    .mgt20 {
+      margin-top: 20px;
+    }
+    .juliangduan {
+      display: flex;
+      justify-content: space-between;
+    }
+    .juyou {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .heikuang {
+      border: 1px solid black;
+    }
+    .bgr {
+      background-color: rgb(104, 104, 236);
+    }
+    .mgl50 {
+      margin-left: 50px;
+    }
+    .mgr50 {
+      margin-right: 50px;
+    }
+  </style>
+  <body>
+    <!--菜单栏-->
+    <div class="juliangduan">
+      <!--左菜单栏-->
+      <div class="mgt20 mgl50">新闻 hao123 地图 贴吧 视频 图片 网盘 更多</div>
+      <!--右登录栏-->
+      <div class="mgt20 juyou mgr50">设置 登录</div>
+    </div>
+    <!--图片栏-->
+    <div class="juzhong">
+      <img src="baidu.png" alt="小百图片" width="304" height="180" />
+    </div>
+    <!--搜索栏-->
+    <div class="juzhong">
+      <div
+        style="width: 600px; height: 50px"
+        class="juyou heikuang shangxiajuzhong"
+      ></div>
+      <div class="bgr shangxiajuzhong">
+        <font color="black" size="5">百度一下 </font>
+      </div>
+    </div>
+    <!---热搜栏-->
+    <div></div>
+  </body>
+</html>
